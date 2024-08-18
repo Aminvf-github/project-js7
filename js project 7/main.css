@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(98, 98, 197);
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+img{
+    width: 15px;
+}
+.container{
+    background-color: white;
+    width: 600px;
+    height: 40vh;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+button{
+    border: none;
+    outline: none;
+    background-color: rgb(98, 98, 197);
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    cursor: pointer; 
+}
+button.loading{
+    opacity: 0.7;
+    pointer-events: none;
+}
+.hr{
+    margin: 0 20px;
+}
+.author{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 0px 40px;
+
+}
+span{
+    display: inline;
+}
